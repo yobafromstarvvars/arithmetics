@@ -331,7 +331,8 @@ RESULTS -
 2   5+3   8   9   6sec
 3   9+1   10  11  14sec
 correct: 1
-timeout: 1
+timeout: 3
+asdfasdfasdfasdfadsfasdf
 """
 
 
