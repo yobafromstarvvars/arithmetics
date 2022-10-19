@@ -293,6 +293,16 @@ def print_overview(results, correct_count, timeout_count):
     print('='*20)
     # Results table
     print('RESULTS -')
+    print(
+	'#'.ljust(4) +
+	'Exercise'.ljust(10) +
+	' ' +
+	'Correct'.rjust(10) +
+	'   ' +
+	'Yours' +
+	'   ' +
+	'Secs'
+    )
     for r in results:
         print(
             str(r['count']).ljust(4) +
